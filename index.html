@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My dossier</title>
+    <link rel="stylesheet" href="style_portfolio.css">
+</head>
+<body>
+    <nav>
+        <div class="menu">
+            <a href="#experience">Опыт работы</a>
+            <a href="#hobbies">My hobbies</a>
+            <a href="#goals">My goals:</a>
+            <a href="#connect">Связаться со мной</a>
+        </div>
+    </nav>
+    <div class="container">
+        <!-- <div class="info">
+            <img class="face" src="/src/img/face.jpg" alt="face">
+            <span>
+                <h1>Roman Zverev</h1>
+                <p>I am a beginner full-stack developer</p>
+                <p>I love traveling, playing sports and programming</p>
+            </span>
+        </div> -->
+        <div class="info">
+            <table cellspacing="15">
+                <tr>
+                    <td>
+                        <img class="face" src="face.jpg" alt="face">
+                    </td>
+                    <td>
+                        <span>
+                            <h1>Roman Zverev</h1>
+                            <p>I am a beginner full-stack developer</p>
+                            <p>I love traveling, playing sports and programming</p>
+                        </span>
+                    </td>    
+                </tr>
+            </table>
+        </div>
+       
+        
+
+        <div class="social">
+            <h4>My social networks:</h4>
+            
+            <a class="vk" href="https://vk.com/r.zverev2000">VK</a></li>
+            <a class="tg" href="https://tlgg.ru/romver_o">TG</a></li>
+            <a class="github" href="https://github.com/romver0">GitHub</a></li>
+            
+        </div>
+
+        
+
+        <div class="card bg-yellow">
+            <h2 id="experience">Опыт работы:</h2>
+            <table class="table" border="0">
+                <thead>
+                    <tr>
+                        <th>Комнания</th>
+                        <th>Должность</th>
+                        <th>Год работы</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Кейсистемс</td>
+                        <td>web developer</td>
+                        <td>2022-</td>
+                    </tr>
+                    <tr>
+                        <td>?</td>
+                        <td>??</td>
+                        <td>???</td>
+                    </tr>
+                    <tr>
+                        <td>?</td>
+                        <td>??</td>
+                        <td>???</td>
+                    </tr>
+                    <tr>
+                        <td>...</td>
+                        <td>...</td>
+                        <td>...</td>
+                    </tr>
+                </tbody>
+                <tfoot></tfoot>
+            </table>
+        </div>
+
+        <div class="card bg-green">
+            <h2 id="hobbies">My hobbies:</h2>
+            <ul type="circle">
+                <li>Calisthenics</li>
+                <li>football</li>
+                <li>reading of books</li>
+                <li>programming</li>
+                <li>guitar</li>
+            </ul>
+        </div>
+
+        <div class="card bg-red">
+            <h2 id="goals">My goals:</h2>
+            <ul type="circle">
+                <li>Стать лучшей версией себя</li>
+                <li>Уметь отдавать</li>
+                <li>Выделять основное время любимым делам</li>
+                <li>Устроиться на (удалённую) работу</li>
+                <li>Закончить курсы на udemy</li>
+                <li>Сделать хорошее портфолио</li>
+                <li>Правильно расставлять приоритеты</li>
+                <li>Быть сильным справляться со всеми трудностями</li>
+            </ul>
+        </div>
+
+
+        <div class="card">
+            <h2>Мини сочинение:</h2>
+            <p><span id="developer">Путь становления веб-разработчика:</span>
+                1)Фронтенд мне нужен для стилизации моего сайта.Больше всего шансов выйти на заработок благодаря этому направлению + мне нравится добавлять интерактивность сайту.Планирую заниматься веб-разработкой каждый день,чтоб поскорее прийти к своей цели.
+                Хочу пообещать себе,что дойду до конца и наконец-то оформлю своё портфолио и по итогу выйду на работу/фриланс.Мне интересно для динамического интерактива сайта интересно изучить javasсript + фреймворк(например,react).Обязательно изучу в ближайшее время,как закончу курс по основам веб-разработке
+                2)Также мне нравится python, благодаря которому могу делать бекенд(например, при помощи django) и ботов,чем тоже буду заниматься только в виде проектной деятельности в отличии от изучения фронтенда(ежедневной уcиленной работы)
+                3)Хотя разработка ботов мне приносит огромное удовольствие,постараюсь совмещать веб-разработку и создание ботов.К тому же,недавно изучил scraping данных,смогу делать ботов куда практичнее и интереснее.Так что думаю,что стоит выделять время и на python(хобби)</p>
+        </div>
+            <div class="contact">
+                <h3 id="connect">Связаться со мной</h3>
+
+                <form action="">
+                    <div class="row">
+                        <div class="form-group">
+                            <label for="name">Имя: <input type="text" id="name" placeholder="Введите ваше Имя"></label>
+                            <label for="email">Email: <input type="email" id="email" placeholder="Введите ваш email" value=""></label>
+                        </div>
+                        <div class="form-group">
+                            <label for="text">Ваше сообщение:
+                                <textarea id="text" rows="5" cols="15"></textarea>
+                            </label>
+                        </div>
+                    </div>    
+                    
+                    <label id="connection">Связаться: <input id="connection" type="submit" id="message" value="Связаться!"></label>
+                </form>
+            </div>
+            <div class="position">
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+    </div>
+    
+
+</body>
+</html>
+

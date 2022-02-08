@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+/* *{
+    margin:0;
+    padding: 0;
+} */
+body { 
+    height: 3000px;
+    background: #090d00;
+    color:white;
+    /* color: rgba(255,255,255,.25); */
+    font-size:16px;
+    font-weight: normal;
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif */
+    font-family: 'Roboto',sans-serif;
+    /* margin: 0; */
+
+}
+.info .face{
+    display: inline;
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 0 0 100px rgb(11, 11, 219);
+    /* box-shadow: 4px 4px 14px rgb(201, 134, 9,0.25); */
+
+}
+.info p{
+    color:aqua;
+    margin: 0 ;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: none;
+    word-spacing: none;
+    
+}
+.info span{
+    /* float:right;
+    margin:0; */
+} 
+.social{
+    /* background-color: blueviolet; */
+    /* margin: 0 auto; */
+    padding:15px;
+    /* border:5px solid red; */
+}
+.social a{
+    background: #fff;
+    color: #000;
+    padding: 10px;
+    border-radius: 14px;
+    line-height: 50px;
+    text-decoration:none;
+    margin:5px
+}
+.social .vk:hover{
+    background: #5d84ae; color: #fff;
+}
+
+.social .tg:hover{
+    background: #249bd7; color: #fff;;
+}
+.social .github:hover{
+    background: #191919; color: #fff;
+}
+/* .social .github:visited{
+    background: orange;
+} */
+.container{
+    max-width:750px;
+    margin: 0 auto;
+
+}
+#developer{
+    color:orange;
+}
+/* .box-model > div{
+    float:left;
+    background:aqua;
+    height: 200px;
+    width: 25%;
+    box-sizing: border-box; 
+    border: 10px solid red;
+    float:right;
+} */
+.card{
+    color:grey;
+    padding:15px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.bg-yellow{
+    /* background: rgb(206, 206, 15,0.75); */
+    background: #fff9dc;
+    padding-bottom: 30px;
+}
+.bg-green{
+    /* background:rgb(6, 172, 6,0.75); */
+    background: #e5ffe7;
+}
+.bg-green li:hover{
+    color:#249bd7;
+}
+.bg-red ul{
+    -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+.bg-red li:hover{
+    /* list-style: georgian inside url(/src/img/rocket.png); */
+    list-style-image: url("https://mdn.mozillademos.org/files/11981/starsolid.gif");
+    -webkit-transform: rotate(2deg);
+    transform: rotate(2deg);
+}
+.bg-red{
+    /* background: rgb(177, 10, 10,0.75); */
+    background: #ffe5e5;
+}
+.bg-red li:hover{
+    color:#249bd7;
+}
+.card h2{
+    margin-top:1px;
+}
+.table{
+    width: 100%;
+    text-align: center;
+}
+.table th{
+    color:#000;
+    line-height:30px;
+}
+.table td{
+    padding-top: 10px;
+}
+.table td:nth-child(1),
+.table td:nth-child(2){
+    color:#000;
+}
+.contact{
+    color:red;
+}
+.contact h3{
+    text-align:center;
+}
+.form-group label{
+    display: block;
+    line-height: 30px;
+    /* margin-right: 45px; */
+}
+.form-group input,
+.form-group textarea
+{
+    width: 100%;
+    box-sizing: border-box;
+    border:none;
+    color:white;
+    background: transparent;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 20px;
+    /* margin-right: 45px; */
+    /* font-family: inherit; */
+}
+.row{
+}
+.container
+{
+    /* display: flex; */
+}
+#connection input{
+    background-color: #0000FF;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin: 10px 20px;
+    position: relative;
+    overflow: hidden; 
+    border: 2px solid black;
+    color: #fe6637; 
+    /* transition: .4s ease-in-out;   */
+    -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+#connection input:hover{
+    background-color: #FFCCCC;
+    -webkit-transform: rotate(18deg);
+    transform: rotate(18deg);
+}
+/* .position{
+
+    position: relative;
+    border:2px solid white;
+    padding: 100px;
+}
+.box{
+    width:100%;
+    height: 50px;
+    display: inline-block;
+    position: absolute;
+    background: yellow;
+    top:0;
+
+    right: 0;
+} */
+/* .table tr:nth-child(even)
+{
+    background-color: red;
+}
+.table tr:nth-child(odd)
+{
+    background-color: #249bd7;
+} */
+
+h1,h2{
+
+    /* font: 700 4em/1 "Oswald", sans-serif;  */
+    letter-spacing: 0;
+    padding: .25em 0 .325em;
+    display: block;
+    margin: 0 auto;
+    text-shadow: 0 0 80px rgba(255,255,255,.5);
+
+ /* Clip Background Image  */
+
+    background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+ /* Animate Background Image  */
+
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: aitf 80s linear infinite;
+
+/* Activate hardware acceleration for smoother animations  */
+
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-backface-visibility: hidden;
+
+}
+
+
+ /* Animate Background Image  */
+
+@-webkit-keyframes aitf {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+nav{
+    position: fixed;
+    /* background: yellow; */
+    margin-top: 100px;
+    width: 10%;
+    height: 1050px;
+    left: 0;
+}
+.menu a{
+    display: block;
+    color:#fe6637;
+    line-height: 40px;
+    text-decoration: none;
+}
+.menu a:hover{
+    color:yellow;
+    -webkit-transform: rotate(3deg);
+    transform: rotate(3deg);
+}
+/* @media(max-width:700px){
+    .menu{
+        display: info;
+    }
+} */
+/* https://youtu.be/SpCUuyZZTp8?t=1189
+https://developer.mozilla.org/ru/docs/Web/CSS/background-clip
+https://webref.ru/css/clip */
